@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+  background: linear-gradient(white,black); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 100px;
+    flex-direction: column;
+
+
+}
+
+
+.images{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 50px;
+    }
+
+
+.button{
+
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    
+}
