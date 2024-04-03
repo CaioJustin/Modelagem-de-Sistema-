@@ -1,0 +1,69 @@
+body{
+    /* Usassem 100vh pra quando o conteudo não e maior do que a pagina 
+    se o ocnteudo for muito pra baixo usa 100% pra fazer ficar completo em relção ao conteudo */
+    height: 100vh;
+    background: linear-gradient(black,purple,pink);
+    display: flex;
+    align-items: center; /* Vertical*/
+    justify-content: center;
+    
+    
+}
+
+.central{
+    height: 300px;
+    width: 400px;
+    background: white;
+    border-radius: 30px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center; /* Horizontal */
+    box-shadow: 2px 3rem  4rem ;
+    align-items: center;
+    
+    
+}
+
+p{
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    
+    
+}
+
+.central input{
+    width: 250px;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+    
+}
+
+.central input:focus{
+    background: silver;
+}
+
+.central button{
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    background: linear-gradient(white,silver);
+    flex-direction: column;
+    margin-top: 12px;
+    
+
+    
+}
+
+
+.central button:focus{
+    background: linear-gradient(50deg ,pink);
+    border: none;
+    color: white;
+    
+}
+
+.central button:hover{
+    background: linear-gradient(50deg ,blue,red);   
+}
