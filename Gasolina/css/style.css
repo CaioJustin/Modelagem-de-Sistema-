@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(white,black);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+        
+
+}
+
+div{
+    background: white;
+    border-radius: 20px;
+    width: 450px ;
+    height: auto;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 14px 50px 70px;
+    padding: 15px;
+}
+
+p{
+    font-weight: bolder;
+    
+    
+}
+
+
+#dv{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 22rem;
+    height: 2rem;
+    
+}
+
+
+#rc{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 22rem;
+    height: 2rem
+}
+
+
+#pg{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 22rem;
+    height: 2rem;
+}
+
+button{
+    width: 22rem;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+body input:focus{
+    background:  silver;
+    
+}
+
