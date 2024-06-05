@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(black,brown);
+}
+.Game-board{
+
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid rgb(7, 235, 7);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(blue,rgb(32, 178, 245));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pipe{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    right: 50%;
+    
+}
+
+
+
+
+.mario{
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    animation: mario-walker 2s forwards;
+    
+}
+
+
+.clouds{
+    position: absolute;
+    width: 550px;
+    right: 100px;
+    top: 10px;
+    
+}
+
+a{
+   
+    position: absolute;
+    background: brown;
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    
+}
+
+
+.Slogan{
+    height: 150px;
+    width: 550px;
+    background: brown;
+    top: 30px;
+    text-align: center;
+    border: 5px solid;
+    
+}
+
+
+.botao{
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    
+
+}
+
+#koopa{
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+   right: 43%;
+}
+
+@keyframes mario-walker {
+    
+    0%{
+        bottom: 0;
+        left: 15px;
+    }
+
+    80%{
+        bottom: 0px;
+        right: 45%;
+    }
+    
+
+    90%{
+        top: 50%;
+        right: 40%;
+    }
+    
+    100%{
+        bottom: 10px;
+        left: 1000px;
+    }
+    
+}

@@ -1,0 +1,140 @@
+body{
+    height: 100vh;
+    background: url("/images/pngtree-d-game-art-natural-landscape-for-games-mobile-applications-and-computers-image_1696197.jpg");
+    background-size: cover  ;
+    background-attachment: fixed;
+    overflow: hidden;
+
+    
+    
+}
+
+
+
+/* quado se que adiciona o objeto em qualquer lugar da tela usa posicionamenbto absoluto
+position:absolute voce pode seleciona objeto em qualquer lugar da tela toda vez ,
+se eu quise meche o kirby dentro de uma kirby e dificil porque e necessario um pain entaão eu vou na div e coloca 
+position:Relative para dizer que a div e pai do kirby*/
+#kirby{
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: -9%;
+ animation: kirbyrunnin 10s infinite;
+ 
+    
+    
+}
+
+
+#nuven{
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 83%;
+    animation: nuvenmexendio 14s infinite;
+}
+
+#nave{
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    left: -3%;
+    animation: spaceship 10s infinite;
+}
+
+#money{
+    height: 100px;
+    position: absolute;
+    top: 30%;
+    left: 108%;
+    animation:  coinmexendio 10s infinite;
+}
+
+#pikchu{
+    height: 100px;
+    position: absolute;
+    top: 70%;
+    left: -7%;
+    animation:  pikmove 15s infinite;
+
+}
+
+
+@keyframes kirbyrunnin {
+
+    0%{ 
+        left: -9%;
+    }
+
+    50%{
+        top: 40%;
+        left: 40%;
+    }
+
+    60%{
+        bottom: 30%;
+        left: 60%;
+    }
+
+    65%{
+        bottom: 40%; 
+        left: 65%;
+    }
+
+
+    100% {
+             top: 50%; 
+            left: 110%;
+    }   
+}
+
+@keyframes nuvenmexendio{
+
+    0%{    top: 0px;
+            left: 83%;
+    }
+
+    100%{
+            top: 0%;
+            left: 0%;
+    }
+}
+
+
+@keyframes spaceship{
+
+    0%{   top: 9%;
+        left: -3%;
+    }
+
+    100%{
+        top: 10%;
+        left: 109%;
+    }
+}
+
+@keyframes pikmove {
+
+    0%{ top: 70%;
+        left: -7%;
+    }
+
+    100% {
+            top: 70%;
+            left: 109%;
+    }   
+}
+
+@keyframes coinmexendio{
+
+    0%{    top: 30%;
+        left: 108%;
+    }
+
+    
+    100%{
+            top: 30%;
+            left: -5%;
+    }
+}
